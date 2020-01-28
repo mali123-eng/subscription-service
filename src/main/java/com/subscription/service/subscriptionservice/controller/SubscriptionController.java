@@ -28,7 +28,7 @@ public class SubscriptionController {
 			mail.setMailFrom("hotelhaldiram@gmail.com");
 			mail.setMailTo(savedSubscription.getEmail());
 			mail.setMailSubject("Spring Boot - Email Example");
-			mail.setMailContent(" Email service using Spring Boot!!!\n\nThanks\nwww.raushan.com");
+			mail.setMailContent(" Email service using Spring Boot!!!\n\nThanks\nwww.demo.com");
 			HttpHeaders headers = new HttpHeaders();
 			headers.setContentType(MediaType.APPLICATION_JSON);
 			HttpEntity<Mail> entity = new HttpEntity<>(mail, headers);
