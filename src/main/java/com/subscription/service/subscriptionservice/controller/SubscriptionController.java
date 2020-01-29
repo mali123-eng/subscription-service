@@ -25,7 +25,7 @@ public class SubscriptionController {
 		if(savedSubscription!=null) {
 			final String uri = "http://localhost:9090/email";
 			Mail mail = new Mail();
-			mail.setMailFrom("hotelhaldiram@gmail.com");
+			mail.setMailFrom("abc@gmail.com");
 			mail.setMailTo(savedSubscription.getEmail());
 			mail.setMailSubject("Spring Boot - Email Example");
 			mail.setMailContent(" Email service using Spring Boot!!!\n\nThanks\nwww.demo.com");
