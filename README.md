@@ -25,8 +25,13 @@
 	+ open `src/main/resources/application.properties` file.
 
 	+ change `spring.datasource.username` and `spring.datasource.password` properties as per your mysql installation
+4. **Change SubscriptionController**
 
-4. **Run the app**
+	+ open `com.subscription.service.subscriptionservice.controller;` file.
+
+	+ change `mail.setMailFrom`  add a EmailId.
+
+5. **Run the app**
 
 	You can run the spring boot app by typing the following command -
 
